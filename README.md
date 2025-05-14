@@ -12,18 +12,17 @@ This project demonstrates a practical application of ML for financial forecastin
 
 ## Directory Structure
 Stock-Market-Prediction-Telegram-Bot/
-│
-├── data/                        # Historical stock data (CSV)
-├── notebooks/                  # Jupyter notebook for EDA
-├── src/                        # Source code
-│   ├── data\_preprocessing.py   # Data cleaning and scaling
-│   ├── model\_training.py       # Model training and saving
-│   ├── prediction\_service.py   # Prediction using trained model
-│   └── telegram\_bot.py         # Sends alerts through Telegram
-├── model/                      # Trained model is saved here
-├── requirements.txt            # Python dependencies
-├── README.md                   # This documentation
-└── .gitignore                  # Prevents versioning of unnecessary files
+data/                        # Historical stock data (CSV)
+notebooks/                  # Jupyter notebook for EDA
+src/                        # Source code
+ 1.data\_preprocessing.py   # Data cleaning and scaling
+ 2.model\_training.py       # Model training and saving
+ 3.prediction\_service.py   # Prediction using trained model
+4. telegram\_bot.py         # Sends alerts through Telegram
+model/                      # Trained model is saved here
+requirements.txt            # Python dependencies
+README.md                   # This documentation
+.gitignore                  # Prevents versioning of unnecessary files
 
 ## How to Use
 
@@ -82,12 +81,6 @@ It will send daily predictions to your Telegram based on the latest model.
 * matplotlib (for EDA)
 * yfinance (optional, for data collection)
 * python-telegram-bot
-
-## About the Developer
-
-This project was created by **Tamsa Karwa**, a software developer with a focus on machine learning and automation. It was developed as part of a larger interest in using AI to simplify decision-making.
-
-You can reach out via GitHub or connect on LinkedIn.
 
 ## Future Enhancements
 
