@@ -11,18 +11,7 @@ The system is designed to:
 This project demonstrates a practical application of ML for financial forecasting, with emphasis on usability and automation.
 
 ## Directory Structure
-Stock-Market-Prediction-Telegram-Bot/
-data/                        # Historical stock data (CSV)
-notebooks/                  # Jupyter notebook for EDA
-src/                        # Source code
- 1.data\_preprocessing.py   # Data cleaning and scaling
- 2.model\_training.py       # Model training and saving
- 3.prediction\_service.py   # Prediction using trained model
-4. telegram\_bot.py         # Sends alerts through Telegram
-model/                      # Trained model is saved here
-requirements.txt            # Python dependencies
-README.md                   # This documentation
-.gitignore                  # Prevents versioning of unnecessary files
+The **Stock Market Prediction Telegram Bot** project is structured into several directories and files, each serving a specific purpose to ensure modularity and clarity. The `data/` folder contains historical stock data in CSV format, essential for training and evaluation. The `notebooks/` directory holds Jupyter notebooks used for exploratory data analysis (EDA). The core functionality resides in the `src/` directory, which includes multiple Python scripts: `data_preprocessing.py` handles data cleaning and scaling, `model_training.py` manages model training and saves the trained model, `prediction_service.py` is responsible for making predictions using the trained model, and `telegram_bot.py` sends real-time stock alerts via Telegram. The trained model is stored in the `model/` directory. Project dependencies are listed in the `requirements.txt` file, while the `README.md` provides comprehensive documentation. The `.gitignore` file ensures that unnecessary or sensitive files are excluded from version control.
 
 ## How to Use
 
