@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+matplotlib
+joblib
+yfinance
+python-telegram-bot==13.15
