@@ -17,8 +17,8 @@ A complete end-to-end stock prediction and Telegram alert bot in a **single Pyth
 ## Installation
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone <[predictionbot](https://github.com/tamsakarwa/Stock-Market-Prediction-with-Telegram-Bot)>
+cd <Stock-Market-Prediction-with-Telegram-Bot>
 
 # Install dependencies
 pip install -r requirements.txt
