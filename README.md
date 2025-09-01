@@ -110,7 +110,7 @@ Stock-Market-Prediction-with-Telegram-Bot/
 ## 👩‍💻 Author  
 **Tamsa Sandeep Karwa**  
 📍 Data Analyst & Machine Learning Enthusiast  
-🔗 [Portfolio](https://github.com/tamsakarwa) | [LinkedIn](www.linkedin.com/in/tamsakarwa)  
+🔗 [Portfolio](https://github.com/tamsakarwa) | [LinkedIn](https://www.linkedin.com/in/tamsakarwa) 
 
 ---
 
